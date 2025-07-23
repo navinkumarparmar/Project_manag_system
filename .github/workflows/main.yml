@@ -22,8 +22,6 @@ jobs:
 
     - name: Install dependencies
       run: npm install
-
-    - name: (Optional) Start Server for test
       run: |
         echo "Start script exists: checking if server starts"
         npm start
