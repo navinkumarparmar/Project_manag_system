@@ -7,6 +7,9 @@ on:
 jobs:
   build:
     runs-on: ubuntu-latest
+    env:
+      PORT: ${{ secrets.PORT }}
+      dburl: ${{ secrets.dburl }}
 
     steps:
     - name: Checkout code
