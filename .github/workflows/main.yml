@@ -7,7 +7,7 @@ on:
 jobs:
   build:
     runs-on: ubuntu-latest
-     env:
+    env:
       PORT: ${{ secrets.PORT }}
       dburl: ${{ secrets.dburl }}
 
