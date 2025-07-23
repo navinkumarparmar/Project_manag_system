@@ -22,6 +22,7 @@ jobs:
 
     - name: Install dependencies
       run: npm install
+      
       run: |
         echo "Start script exists: checking if server starts"
         npm start
